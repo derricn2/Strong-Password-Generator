@@ -1,13 +1,13 @@
+var charLength = 8;
+var chArr = [];
+var specArr = [];
+var numArr = [];
+var lowArr = [];
+var upArr = [];
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-// Defines generatePassword function
-function generatePassword(length, numbers, uppercase, lowercase, symbols, noDuplicates) {
-
-
-
-  return "Unique password placeholder";
-}
 
 // Write password to the #password input
 function writePassword() {
@@ -20,3 +20,4 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
